@@ -1,7 +1,7 @@
 package org.dineshkotwani;
 
 import org.dineshkotwani.services.strategy.SnakeStrategy;
-import org.dineshkotwani.services.strategy.SquareStrategyImpl;
+import org.dineshkotwani.services.strategy.DefaultStrategy;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -22,7 +22,7 @@ public class SquareTest {
     @Test
     public void testgetPlayerPositionWithNoSnakesNoLadder(){
         Square testSquare = new Square(14);
-        SquareStrategyImpl defaultStrategy = mock(SquareStrategyImpl.class);
+        DefaultStrategy defaultStrategy = mock(DefaultStrategy.class);
         when(defaultStrategy.computePlayerDestination()).thenReturn(14);
         testSquare.setStrategy(defaultStrategy);
         assertEquals(14,testSquare.getPlayerPosition()) ;

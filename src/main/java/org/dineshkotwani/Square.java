@@ -2,7 +2,7 @@ package org.dineshkotwani;
 
 import lombok.Data;
 import org.dineshkotwani.services.strategy.SquareStrategy;
-import org.dineshkotwani.services.strategy.SquareStrategyImpl;
+import org.dineshkotwani.services.strategy.DefaultStrategy;
 
 @Data
 public class Square {
@@ -12,7 +12,7 @@ public class Square {
 
     public Square(int position) {
         this.position = position;
-        this.strategy = new SquareStrategyImpl(position);
+        this.strategy = new DefaultStrategy(position);
     }
 
     public int getPlayerPosition(){

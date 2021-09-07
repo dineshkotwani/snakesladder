@@ -1,9 +1,9 @@
 package org.dineshkotwani.services.strategy;
 
-public class SquareStrategyImpl implements SquareStrategy{
+public class DefaultStrategy implements SquareStrategy{
 
     private int position;
-    public SquareStrategyImpl(int position) {
+    public DefaultStrategy(int position) {
         this.position = position;
     }
 

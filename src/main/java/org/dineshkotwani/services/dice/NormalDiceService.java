@@ -2,7 +2,7 @@ package org.dineshkotwani.services.dice;
 
 import java.util.Random;
 
-public class DiceServiceImpl implements DiceService {
+public class NormalDiceService implements DiceService {
 
 
     @Override
