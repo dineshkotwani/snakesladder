@@ -1,7 +1,7 @@
 package org.dineshkotwani;
 
-import org.dineshkotwani.services.DiceService;
-import org.dineshkotwani.services.DiceServiceImpl;
+import org.dineshkotwani.services.dice.DiceService;
+import org.dineshkotwani.services.dice.DiceServiceImpl;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;

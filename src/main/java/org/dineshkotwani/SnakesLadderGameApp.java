@@ -1,7 +1,7 @@
 package org.dineshkotwani;
 
-import org.dineshkotwani.services.DiceService;
-import org.dineshkotwani.services.DiceServiceImpl;
+import org.dineshkotwani.services.dice.DiceService;
+import org.dineshkotwani.services.dice.DiceServiceImpl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +19,7 @@ public class SnakesLadderGameApp
         players.add(samplePlayer);
         Board sampleBoard = new Board(100);
         DiceService diceService = new DiceServiceImpl();
+        sampleBoard.addSnake(14,7);
         Game gameSession = new Game(sampleBoard,samplePlayer,10,diceService);
         gameSession.start();
     }

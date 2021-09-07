@@ -1,4 +1,4 @@
-package org.dineshkotwani;
+package org.dineshkotwani.services.strategy;
 
 public class SquareStrategyImpl implements SquareStrategy{
 

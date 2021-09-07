@@ -1,5 +1,10 @@
 package org.dineshkotwani;
 
+import lombok.Data;
+import org.dineshkotwani.services.strategy.SquareStrategy;
+import org.dineshkotwani.services.strategy.SquareStrategyImpl;
+
+@Data
 public class Square {
 
     private int position;

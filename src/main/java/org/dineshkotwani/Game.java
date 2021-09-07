@@ -1,6 +1,6 @@
 package org.dineshkotwani;
 
-import org.dineshkotwani.services.DiceService;
+import org.dineshkotwani.services.dice.DiceService;
 
 public class Game {
 

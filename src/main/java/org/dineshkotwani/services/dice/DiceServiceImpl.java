@@ -1,6 +1,4 @@
-package org.dineshkotwani.services;
-
-import org.dineshkotwani.services.DiceService;
+package org.dineshkotwani.services.dice;
 
 import java.util.Random;
 
